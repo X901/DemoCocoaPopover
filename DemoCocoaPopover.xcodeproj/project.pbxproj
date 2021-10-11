@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1EE31EE92712E96C009C57D1 /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE31EE82712E96C009C57D1 /* TestApp.swift */; };
+		1EE31EE92712E96C009C57D1 /* DemoCocoaPopoverApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE31EE82712E96C009C57D1 /* DemoCocoaPopoverApp.swift */; };
 		1EE31EEB2712E96C009C57D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE31EEA2712E96C009C57D1 /* ContentView.swift */; };
 		1EE31EED2712E96F009C57D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE31EEC2712E96F009C57D1 /* Assets.xcassets */; };
 		1EE31EF02712E96F009C57D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE31EEF2712E96F009C57D1 /* Preview Assets.xcassets */; };
@@ -16,7 +16,7 @@
 
 /* Begin PBXFileReference section */
 		1EE31EE52712E96C009C57D1 /* DemoCocoaPopover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCocoaPopover.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EE31EE82712E96C009C57D1 /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
+		1EE31EE82712E96C009C57D1 /* DemoCocoaPopoverApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCocoaPopoverApp.swift; sourceTree = "<group>"; };
 		1EE31EEA2712E96C009C57D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1EE31EEC2712E96F009C57D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE31EEF2712E96F009C57D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		1EE31EE72712E96C009C57D1 /* DemoCocoaPopover */ = {
 			isa = PBXGroup;
 			children = (
-				1EE31EE82712E96C009C57D1 /* TestApp.swift */,
+				1EE31EE82712E96C009C57D1 /* DemoCocoaPopoverApp.swift */,
 				1EE31EEA2712E96C009C57D1 /* ContentView.swift */,
 				FBE0CB2E2713171400D3E46E /* CocoaPopover.swift */,
 				FDDB2BDE2714D6CF00DF8957 /* Info.plist */,
@@ -143,7 +143,7 @@
 			files = (
 				FBE0CB2F2713171400D3E46E /* CocoaPopover.swift in Sources */,
 				1EE31EEB2712E96C009C57D1 /* ContentView.swift in Sources */,
-				1EE31EE92712E96C009C57D1 /* TestApp.swift in Sources */,
+				1EE31EE92712E96C009C57D1 /* DemoCocoaPopoverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
