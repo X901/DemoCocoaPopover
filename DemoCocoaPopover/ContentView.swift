@@ -22,7 +22,11 @@ struct ContentView: View {
             
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
-                    Text("Popover")
+                    Button(action: {
+                        openChangeFont.toggle()
+                    }, label: {
+                        Text("Popover")
+                    })
                         .foregroundColor(.blue)
                         .cocoaPopover(isPresented: $openChangeFont, content: {
                             HStack {
@@ -72,9 +76,7 @@ struct ContentView: View {
                                 
                             }.padding(.horizontal)
                         })
-                        .onTapGesture {
-                            openChangeFont.toggle()
-                        }
+                       
                 }
         }
     }
